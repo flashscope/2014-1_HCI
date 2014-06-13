@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImageExample.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioClient.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioServer.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\TUIO\TuioTime.cpp">
+      <Filter>Tuio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\IpEndpointName.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\win32\NetworkingUtils.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\ip\win32\UdpSocket.cpp">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscOutboundPacketStream.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPrintReceivedElements.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscReceivedElements.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscTypes.cpp">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.cpp">
+      <Filter>ofxTuioClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Album.cpp" />
+    <ClCompile Include="MovingObject.cpp" />
+    <ClCompile Include="Photo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio">
+      <UniqueIdentifier>{c8b99239-1a38-4bc2-898d-7892e880731a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack">
+      <UniqueIdentifier>{60a1b948-5837-4c0a-870e-784d82f48456}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack\ip">
+      <UniqueIdentifier>{336dbf3a-10b2-47c9-8e77-0a984c620683}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tuio\oscpack\osc">
+      <UniqueIdentifier>{d1a27a60-38d6-4671-9214-d0297fec0cb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ofxTuioClient">
+      <UniqueIdentifier>{8bd7a800-6048-49e3-95be-af2baf456e0d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ImageExample.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioClient.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioContainer.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioCursor.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioListener.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioObject.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioPoint.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioServer.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\TUIO\TuioTime.h">
+      <Filter>Tuio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\IpEndpointName.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\NetworkingUtils.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\PacketListener.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\TimerListener.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\ip\UdpSocket.h">
+      <Filter>Tuio\oscpack\ip</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\MessageMappingOscPacketListener.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscException.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscHostEndianness.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscOutboundPacketStream.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPacketListener.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscPrintReceivedElements.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscReceivedElements.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\TUIO_CPP\oscpack\osc\OscTypes.h">
+      <Filter>Tuio\oscpack\osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxTuioWrapper\src\ofxTuioClient.h">
+      <Filter>ofxTuioClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Album.h" />
+    <ClInclude Include="MovingObject.h" />
+    <ClInclude Include="Photo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\addons\TUIO_CPP\TUIO\Doxyfile">
+      <Filter>Tuio</Filter>
+    </None>
+  </ItemGroup>
+</Project>
